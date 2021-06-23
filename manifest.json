@@ -1,7 +1,7 @@
 {
-  "name": "Chrome extension workshop",
+  "name": "Magic marker",
   "version": "1.0",
-  "description": "Simple example project that shows the use of popups, content scripts and service workers in a chrome extension.",
+  "description": "A chrome extension that lets you choose the text color of any page you visit!",
   "manifest_version": 3,
   "action": {
     "default_popup": "popup.html",
