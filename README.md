@@ -8,4 +8,5 @@ The extension has a little popup that shows a color picker. Whenever the user in
 
 ## How do extensions work?
 I've written documentation on how chrome extensions work. 
-You can find all of it on: https://humanoids.nl/curriculum/developers-guide/chrome-extensions/introduction
+
+You can find it on: https://humanoids.nl/curriculum/developers-guide/chrome-extensions/introduction
