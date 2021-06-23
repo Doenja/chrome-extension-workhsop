@@ -1,7 +1,7 @@
 # Magic marker
 This is a chrome extension that lets you choose the text color of any page you visit!
 
-It demonstrates the working of popups, background scripts and content scripts. They communicate with eachother using the chrome runtime message API.
+It uses popups, background scripts and content scripts. They communicate with eachother using the chrome runtime message API.
 
 ## How do extensions work?
 I've written documentation on how chrome extensions work. 
