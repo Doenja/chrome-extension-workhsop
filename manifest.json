@@ -9,6 +9,16 @@
     "48": "/img/icon48.png",
     "128": "/img/icon128.png"
   },
-  "permissions": ["storage", "tabs"],
-  "host_permissions": ["<all_urls>"]
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "./serviceworker.js"
+  },
+  "permissions": ["storage", "activeTab", "tabs", "scripting", "alarms"],
+  "host_permissions": ["<all_urls>"],
+  "options_page": "options.html"
 }
