@@ -1,4 +1,4 @@
-# Magic marker
+# Magic marker - Chrome Extension Workshop
 This is a chrome extension that lets you choose the text color of any page you visit!
 
 It uses popups, background scripts and content scripts. They communicate with eachother using the chrome runtime message API.
